@@ -3,12 +3,11 @@ span {
   }
    span {
     display: inline-block;
-    background-color: lightblue;
-    padding: 5px;
-    border: 1px solid darkgray;
+    padding: 0px;
+   
   } 
    
-  #one {
+ /* #one {
     background-color:lightblue;
     width: 150px;
     height: 200px;
@@ -24,27 +23,37 @@ span {
     background-color: rgb(187, 189, 243);
     width: 175px;
     height: 150px;
-  } 
+  } */
   
-   div,
+  div,
   span {
     margin: 1px;
+
   }
   
   span {
-    border: 1px solid #333;
-    
-    padding: 10px 15px;
+   padding: 10px 15px;
   }
   
+  
+#pic {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align:center;
+}
 
-  #text span {
+#pic img {
+    width: 100%;
+    height: auto;
+}
+  /*#text span {
     padding: 25px 30px;
   }
  
   #text span {
     background-color: white;
-  } 
+  } */
   
   li{
     display: inline;
@@ -63,11 +72,15 @@ span {
     padding-left:0%;
     text-align:center;
     padding-top:3%;
+    
   }
   .rightMenu{
     padding-left:2%;
     text-decoration: none;
     margin-left:10%;
   }
-  
- 
+ #mini-layout{
+    float:left;
+    display:flex;
+
+ }
