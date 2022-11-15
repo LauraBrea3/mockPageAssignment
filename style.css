@@ -46,6 +46,7 @@ span {
 #pic img {
     width: 100%;
     height: auto;
+    display:block;
 }
   /*#text span {
     padding: 25px 30px;
