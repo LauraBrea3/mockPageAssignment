@@ -45,6 +45,7 @@ span {
   #text span {
     background-color: white;
   } 
+  
   li{
     display: inline;
     padding: 0%;
@@ -63,3 +64,4 @@ span {
     padding-left:3%;
     text-decoration: none;
   }
+  
